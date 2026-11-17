@@ -16,7 +16,6 @@
 |---|---|
 | ![](docs/shots/03-body.png) | ![](docs/shots/04-limbs.png) |
 
-全站只有一套设计系统：面板 / 字段行 / 表格 / 瓦片 / 开关 / 按钮都在 `src/theme.css` 里定义，页面只用组件拼装。改动规范见 [docs/UI重做说明.md](docs/UI重做说明.md)。
 
 ## 快速开始
 
@@ -104,29 +103,11 @@ docs/            界面规范与改造记录、截图
 | 槽位 6 个 | `Body` prefab 的 `Body.slots` PPtr 顺序 | 与官中键名、代码用法三方一致 |
 | 身体字段 80 / 肢体 15 | `Body.cs`、`Limb.cs` 声明 + 官中 `other` 表 | 每条范围带 `file:line` 证据 |
 
-## 验收
-
-`work/verify` 是一个**独立校验器**：用 Mono.Cecil 直接读游戏 `Assembly-CSharp.dll` 的真实字段类型（Body 188 字段 / Limb 44 / Skills 15 / SavedItem 7），复现 `SaveSystem.TryLoadGame()` 的逐字段赋值，判定一份 `.sv` 会不会被游戏正常读进来。
-
-```bash
-dotnet run --project work/verify -- <某个.sv>       # 退出码 0=PASS 1=FAIL
-```
-
-| 用例 | 结果 |
-|---|---|
-| 原存档原样打包 | PASS |
-| 本工具在浏览器里真实产出的 .sv（改过 hunger、物品耐久、肢体治愈） | PASS（0 中断 / 0 值被改写 / 3 条无害提醒） |
-| 故意把 `int` 字段写成小数 | FAIL（定位到字段并给出四舍五入后的值） |
-| 截断的 gzip | FAIL（致命） |
-| .sv 里混入 UTF-8 中文字节 | FAIL（9 个字节 ≥ 0x80 会被 ASCII 解码器毁掉） |
-
-浏览器内自检（`node build.js --selftest` 后打开 `dist/selftest.html`）共 **35 项断言**，覆盖数据注入、gzip 往返、ASCII 转义、浮点精度、槽位名、液体编辑、富文本渲染、10 个面板渲染。
 
 ## 已知限制
 
 - 只处理 `save.sv`；`settings.json`、`keybinds.json` 不在范围内。
 - 液体的透明度在存档里没有记录，颜色一律按游戏 `LiquidType.color` 的 RGB 显示（丢弃 alpha）。
-- 角色类型 0/1/2 = Experiment（实验体）/ Milky / Dune（沙丘·类昆虫科），不存在人类选项。
 - 缺少贴图时会退回首字符占位图标（仓库不含解包贴图，属预期行为）。
 - 改档属于自担风险的行为，请自留备份。
 
