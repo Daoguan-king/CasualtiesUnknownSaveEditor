@@ -1,0 +1,137 @@
+{
+  "ok": true,
+  "method": "UnityPy: load resources.assets + globalgamemanagers.assets; resolve each GameObject's MonoBehaviour m_Script PPtr to its MonoScript class name; item prefabs are GameObjects with an 'Item' component (id = first serialized field of Item), containers are GameObjects with a 'Container' component whose body (maxWeight, maxWeightPerItem, encumberanceMult, itemsVisible, tagRestriction) is decoded from the raw bytes because this build ships no MonoBehaviour type trees; each decoded body is accepted only if its computed byte length equals the object's real length",
+  "tool": "UnityPy 1.25.4",
+  "prefabCount": 300,
+  "containerIds": [
+    "bandolier",
+    "belt",
+    "bigpack",
+    "box",
+    "brokenbag",
+    "bucketofnochicken",
+    "duffelbag",
+    "fannypack",
+    "foliagebag",
+    "gravbag",
+    "hoodie",
+    "jetpack",
+    "legpouch",
+    "materialpouch",
+    "medkit",
+    "minifleshrebuilder",
+    "nopopcorn",
+    "plasticbag",
+    "pouch",
+    "purse",
+    "slingbag",
+    "smallpack",
+    "toolbox",
+    "trashbag",
+    "traumarig"
+  ],
+  "details": {
+    "bandolier": {
+      "maxWeight": 3.0,
+      "maxWeightPerItem": 0.05
+    },
+    "belt": {
+      "maxWeight": 4.0,
+      "maxWeightPerItem": 4.0
+    },
+    "bigpack": {
+      "maxWeight": 7.5,
+      "maxWeightPerItem": 5.0
+    },
+    "box": {
+      "maxWeight": 4.0,
+      "maxWeightPerItem": 2.0
+    },
+    "brokenbag": {
+      "maxWeight": 6.25,
+      "maxWeightPerItem": 2.25
+    },
+    "bucketofnochicken": {
+      "maxWeight": 3.0,
+      "maxWeightPerItem": 3.0
+    },
+    "duffelbag": {
+      "maxWeight": 5.0,
+      "maxWeightPerItem": 2.8
+    },
+    "fannypack": {
+      "maxWeight": 2.0,
+      "maxWeightPerItem": 0.8
+    },
+    "foliagebag": {
+      "maxWeight": 4.0,
+      "maxWeightPerItem": 2.0
+    },
+    "gravbag": {
+      "maxWeight": 5.0,
+      "maxWeightPerItem": 4.0
+    },
+    "hoodie": {
+      "maxWeight": 2.0,
+      "maxWeightPerItem": 2.0
+    },
+    "jetpack": {
+      "maxWeight": 2.5,
+      "maxWeightPerItem": 2.0
+    },
+    "legpouch": {
+      "maxWeight": 3.8,
+      "maxWeightPerItem": 3.0
+    },
+    "materialpouch": {
+      "maxWeight": 5.0,
+      "maxWeightPerItem": 2.0
+    },
+    "medkit": {
+      "maxWeight": 4.0,
+      "maxWeightPerItem": 1.5
+    },
+    "minifleshrebuilder": {
+      "maxWeight": 3.6,
+      "maxWeightPerItem": 1.2
+    },
+    "nopopcorn": {
+      "maxWeight": 2.0,
+      "maxWeightPerItem": 2.0
+    },
+    "plasticbag": {
+      "maxWeight": 3.5,
+      "maxWeightPerItem": 3.5
+    },
+    "pouch": {
+      "maxWeight": 2.5,
+      "maxWeightPerItem": 1.0
+    },
+    "purse": {
+      "maxWeight": 2.5,
+      "maxWeightPerItem": 1.25
+    },
+    "slingbag": {
+      "maxWeight": 4.0,
+      "maxWeightPerItem": 2.5
+    },
+    "smallpack": {
+      "maxWeight": 3.25,
+      "maxWeightPerItem": 2.0
+    },
+    "toolbox": {
+      "maxWeight": 10.0,
+      "maxWeightPerItem": 6.0
+    },
+    "trashbag": {
+      "maxWeight": 4.0,
+      "maxWeightPerItem": 4.0
+    },
+    "traumarig": {
+      "maxWeight": 6.0,
+      "maxWeightPerItem": 5.0
+    }
+  },
+  "missingFromAssets": [],
+  "notInAssetsNote": "resources.assets holds 429 GameObject instances carrying an Item component in 338 distinct GameObject names, but only 301 distinct Item.id values: 128 names are editor duplicates of the form '<id> (N)' that keep the same Item.id, so the prefab list maps 1:1 onto the item table. Every one of the 300 GlobalItems ids has at least one prefab (0 ids without a prefab), and the only prefab id absent from the table is 'reinforcedrope', which no decompiled code references (grep over work/decompile: 0 hits), i.e. an unreachable leftover prefab. So the prefab list corroborates the id table (no id lacks a prefab) but cannot by itself prove completeness: it contains real prefabs that are not in the table, and prefab counts are inflated by duplicates."
+}

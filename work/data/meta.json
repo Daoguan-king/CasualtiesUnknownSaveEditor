@@ -1,0 +1,330 @@
+{
+  "wearSlots": [
+    {
+      "id": "outertorso",
+      "label": "上躯干（外套）"
+    },
+    {
+      "id": "back",
+      "label": "背部"
+    },
+    {
+      "id": "thigh",
+      "label": "大腿（前）"
+    },
+    {
+      "id": "torsofront",
+      "label": "胸前"
+    },
+    {
+      "id": "thighback",
+      "label": "大腿（后）"
+    },
+    {
+      "id": "hat",
+      "label": "头戴"
+    },
+    {
+      "id": "mouth",
+      "label": "嘴部"
+    },
+    {
+      "id": "eyes",
+      "label": "眼部"
+    },
+    {
+      "id": "blindfold",
+      "label": "眼罩"
+    },
+    {
+      "id": "balaclava",
+      "label": "巴拉克拉瓦头套"
+    },
+    {
+      "id": "neck",
+      "label": "颈部"
+    },
+    {
+      "id": "hands",
+      "label": "手部"
+    },
+    {
+      "id": "arms",
+      "label": "手臂"
+    },
+    {
+      "id": "wraps",
+      "label": "缠布"
+    },
+    {
+      "id": "torso",
+      "label": "躯干"
+    },
+    {
+      "id": "feet",
+      "label": "脚部"
+    },
+    {
+      "id": "bandolier",
+      "label": "子弹带"
+    },
+    {
+      "id": "knees",
+      "label": "膝部"
+    },
+    {
+      "id": "belt",
+      "label": "腰带"
+    }
+  ],
+  "charTypes": [
+    {
+      "value": 0,
+      "label": "Experiment",
+      "evidence": "Lang other.char0name = [SAW-01] “Experiment”；char0desc 生物分类“犬科”"
+    },
+    {
+      "value": 1,
+      "label": "Milky",
+      "evidence": "Lang other.char1name = [SAW-03] “Milky”；char1desc 描述为白色毛茸、背部一对鳍"
+    },
+    {
+      "value": 2,
+      "label": "Dune",
+      "evidence": "Lang other.char2name = [SAW-12] “Dune”；char2desc 生物分类“类昆虫科”，char2quirks 有鳃类器官"
+    }
+  ],
+  "skillKeys": [
+    {
+      "key": "STR",
+      "label": "力量"
+    },
+    {
+      "key": "RES",
+      "label": "韧性"
+    },
+    {
+      "key": "INT",
+      "label": "智力"
+    },
+    {
+      "key": "expSTR",
+      "label": "力量经验"
+    },
+    {
+      "key": "expRES",
+      "label": "韧性经验"
+    },
+    {
+      "key": "expINT",
+      "label": "智力经验"
+    },
+    {
+      "key": "minSTR",
+      "label": "力量当前等级经验下限"
+    },
+    {
+      "key": "maxSTR",
+      "label": "力量升级经验阈值"
+    },
+    {
+      "key": "minRES",
+      "label": "韧性当前等级经验下限"
+    },
+    {
+      "key": "maxRES",
+      "label": "韧性升级经验阈值"
+    },
+    {
+      "key": "minINT",
+      "label": "智力当前等级经验下限"
+    },
+    {
+      "key": "maxINT",
+      "label": "智力升级经验阈值"
+    },
+    {
+      "key": "STRGainMult",
+      "label": "力量经验倍率"
+    },
+    {
+      "key": "RESGainMult",
+      "label": "韧性经验倍率"
+    },
+    {
+      "key": "INTGainMult",
+      "label": "智力经验倍率"
+    },
+    {
+      "key": "STRFrom10",
+      "label": "力量相对 10 的差值（派生只读）"
+    },
+    {
+      "key": "RESFrom10",
+      "label": "韧性相对 10 的差值（派生只读）"
+    },
+    {
+      "key": "INTFrom10",
+      "label": "智力相对 10 的差值（派生只读）"
+    }
+  ],
+  "recipeCategories": [
+    {
+      "key": "Materials",
+      "label": "材料"
+    },
+    {
+      "key": "Tools",
+      "label": "工具"
+    },
+    {
+      "key": "Medicine",
+      "label": "医疗物品"
+    },
+    {
+      "key": "Utilities",
+      "label": "实用物品"
+    },
+    {
+      "key": "Food",
+      "label": "食物"
+    }
+  ],
+  "itemCategories": [
+    {
+      "id": "medical",
+      "label": "医疗物品"
+    },
+    {
+      "id": "custom",
+      "label": "通用（未分类，键名直译）"
+    },
+    {
+      "id": "utility",
+      "label": "实用物品"
+    },
+    {
+      "id": "drug",
+      "label": "药物"
+    },
+    {
+      "id": "container",
+      "label": "容器"
+    },
+    {
+      "id": "trash",
+      "label": "垃圾（键名直译）"
+    },
+    {
+      "id": "food",
+      "label": "食物"
+    },
+    {
+      "id": "water",
+      "label": "饮料"
+    },
+    {
+      "id": "unobtainable",
+      "label": "不可获得（键名直译）"
+    },
+    {
+      "id": "tool",
+      "label": "工具"
+    }
+  ],
+  "biomes": [
+    {
+      "value": 0,
+      "label": "砾石荒原"
+    },
+    {
+      "value": 1,
+      "label": "深层砾石带"
+    },
+    {
+      "value": 2,
+      "label": "干旱沙漠"
+    },
+    {
+      "value": 3,
+      "label": "辐射废土"
+    },
+    {
+      "value": 4,
+      "label": "深林丛渊"
+    },
+    {
+      "value": 5,
+      "label": "覆冰断崖"
+    },
+    {
+      "value": 6,
+      "label": "真菌洼地"
+    },
+    {
+      "value": 7,
+      "label": "晶蚀空穴"
+    },
+    {
+      "value": 8,
+      "label": "地热喷口"
+    },
+    {
+      "value": 9,
+      "label": "必 须 抵 达 之 地"
+    },
+    {
+      "value": 10,
+      "label": "猩红长阶"
+    },
+    {
+      "value": 11,
+      "label": "地球\n某个实验室..."
+    }
+  ],
+  "handSlots": [
+    {
+      "index": 0,
+      "key": "mainhand",
+      "label": "主手",
+      "limb": "右手",
+      "hint": "一般是右手，可在医疗面板切换（挂在右手上）"
+    },
+    {
+      "index": 1,
+      "key": "secondaryhand",
+      "label": "副手",
+      "limb": "左手",
+      "hint": "一般是左手（挂在左手上）"
+    },
+    {
+      "index": 2,
+      "key": "mouth",
+      "label": "嘴部",
+      "limb": "头部",
+      "hint": "能用嘴叼一件（挂在头部上）"
+    },
+    {
+      "index": 3,
+      "key": "upperback",
+      "label": "上背部",
+      "limb": "胸部",
+      "hint": "背上三件之一（挂在胸部上）"
+    },
+    {
+      "index": 4,
+      "key": "middleback",
+      "label": "中背部",
+      "limb": "胸部",
+      "hint": "背上三件之一（挂在胸部上）"
+    },
+    {
+      "index": 5,
+      "key": "lowerback",
+      "label": "下背部",
+      "limb": "腹部",
+      "hint": "背上三件之一（挂在腹部上）"
+    }
+  ],
+  "handSlotsEvidence": "三方一致：(1) 官中 other.mainhand/secondaryhand/mouth/upperback/middleback/lowerback；(2) 代码 Body.cs:1543 slots[0]/slots[1] 为双手、CustomItemBehaviour.cs:176 slots[2] 与咬/嘴相关；(3) 资产 resources.assets 的 Body(prefab pathID 11982) 里唯一的 6 连续 PPtr 块（offset 672, count=6）顺序解析出 6 个 InventorySlot，其挂载肢体依次为 HandF/HandB/Head/UpTorso/UpTorso/DownTorso —— 0 处差异。注意：InventorySlot.slot 字段在 prefab 里恒为 0，运行时由 InventorySlot.Start() 用 body.slots[i]==this 回写，故序号只能取 Body.slots 数组顺序。"
+}

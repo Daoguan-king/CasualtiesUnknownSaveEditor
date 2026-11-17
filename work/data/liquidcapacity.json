@@ -1,0 +1,277 @@
+{
+  "generatedBy": "tools/extract_liquidcap.js",
+  "source": "work/decompile/Item.cs",
+  "count": 54,
+  "items": {
+    "paincream": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "woundglue": {
+      "capacity": 80,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "morphine": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "syringe": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "makeshiftlrd": {
+      "capacity": 50,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "lrd": {
+      "capacity": 75,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "opium": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "heroin": {
+      "capacity": 150,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "naloxone": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "naltrexone": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "sodiumnitroprusside": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "vasopressin": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "amiodarone": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "fentanyl": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "ceftriaxone": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "painkillers": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "keratinbooster": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "braingrow": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "antidepressants": {
+      "capacity": 140,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "antibiotics": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "mindwipe": {
+      "capacity": 60,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "antiserum": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "antirad": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "sleepingpills": {
+      "capacity": 25,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "bloodcoagulant": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "combatpen": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "streptokinase": {
+      "capacity": 100,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "bloodbag": {
+      "capacity": 750,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "saline": {
+      "capacity": 750,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "ringersolution": {
+      "capacity": 700,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "bloodbaghuman": {
+      "capacity": 750,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "disinfectant": {
+      "capacity": 200,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "spraybottle": {
+      "capacity": 200,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "waterbottle": {
+      "capacity": 500,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "minibarrel": {
+      "capacity": 10000,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "milk": {
+      "capacity": 1000,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "bowlofcereal": {
+      "capacity": 500,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "chocolatemilk": {
+      "capacity": 1000,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "ketchup": {
+      "capacity": 300,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "waterjug": {
+      "capacity": 3000,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "bleach": {
+      "capacity": 1500,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "energydrink": {
+      "capacity": 250,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "coffee": {
+      "capacity": 250,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "soup": {
+      "capacity": 300,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "sodabottle": {
+      "capacity": 1000,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "applejuice": {
+      "capacity": 800,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "lemonade": {
+      "capacity": 750,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "icetea": {
+      "capacity": 500,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "sodacan": {
+      "capacity": 250,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "alcohol": {
+      "capacity": 400,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "liquidcentrifuge": {
+      "capacity": 1000,
+      "autoFill": false,
+      "hasDefaultContents": false
+    },
+    "liquidpouch": {
+      "capacity": 1000,
+      "autoFill": false,
+      "hasDefaultContents": false
+    },
+    "craftingbottle": {
+      "capacity": 1000,
+      "autoFill": false,
+      "hasDefaultContents": true
+    },
+    "canteen": {
+      "capacity": 300,
+      "autoFill": false,
+      "hasDefaultContents": true
+    }
+  }
+}

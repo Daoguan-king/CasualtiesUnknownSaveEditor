@@ -1,0 +1,299 @@
+{
+  "ok": true,
+  "method": "UnityPy: load resources.assets + globalgamemanagers.assets; resolve each MonoBehaviour m_Script PPtr to its MonoScript class name in globalgamemanagers.assets; decode every InventorySlot body from raw bytes with the serialized layout of InventorySlot.cs (body, limb, int slot, dropWhenUnconscious, spriteSortOrder, Limb[] useLimbs, isHand, isMainHand) because this build ships no MonoBehaviour type trees - a decode is accepted only if its computed end offset equals the object's real byte length (18 of 18 InventorySlot components pass, 0 fail). index is NOT taken from the serialized 'slot' int: that field reads [0] in all 18 components, because InventorySlot.Start() overwrites it at runtime with the component's position in Body.slots. index is the element order of Body 11982's serialized slots array, located by a structural scan accepted only when unique (byte offset 672 in the Body payload), preceded by a count of 6, every element resolving to an InventorySlot whose own body PPtr points back at Body 11982, and the three Body components in the file yielding disjoint sets that cover all 18 InventorySlot components. No field value is decoded out of Body. langKey is inferred from the component: isHand+isMainHand -> mainhand, isHand only -> secondaryhand, limb GameObject Head -> mouth, DownTorso -> lowerback, and of the two slots parented to UpTorso the one higher up the spine (greater Transform localPosition.y) -> upperback, the other -> middleback. No asset string names the six keys (payload grep over every object: 0 hits), so the key comes from the component geometry, not from a prefab label. label = zh-CN other[langKey].",
+  "source": "resources.assets + globalgamemanagers.assets",
+  "tool": "UnityPy 1.25.4",
+  "slots": [
+    {
+      "index": 0,
+      "gameObject": "InvSlot (3)",
+      "isHand": true,
+      "isMainHand": true,
+      "langKey": "mainhand",
+      "label": "主手",
+      "useLimbs": [
+        "UpArmF",
+        "DownArmF",
+        "HandF"
+      ],
+      "component": 12128,
+      "slotField": 0,
+      "limb": 12592,
+      "limbGameObject": "HandF",
+      "transformParent": "HandF",
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dropWhenUnconscious": true,
+      "spriteSortOrder": 140,
+      "useLimbDetails": [
+        {
+          "pathID": 13990,
+          "gameObject": "UpArmF"
+        },
+        {
+          "pathID": 12437,
+          "gameObject": "DownArmF"
+        },
+        {
+          "pathID": 12592,
+          "gameObject": "HandF"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "gameObject": "InvSlot (4)",
+      "isHand": true,
+      "isMainHand": false,
+      "langKey": "secondaryhand",
+      "label": "副手",
+      "useLimbs": [
+        "UpArmB",
+        "DownArmB",
+        "HandB"
+      ],
+      "component": 13748,
+      "slotField": 0,
+      "limb": 13697,
+      "limbGameObject": "HandB",
+      "transformParent": "HandB",
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "dropWhenUnconscious": true,
+      "spriteSortOrder": -35,
+      "useLimbDetails": [
+        {
+          "pathID": 13064,
+          "gameObject": "UpArmB"
+        },
+        {
+          "pathID": 13756,
+          "gameObject": "DownArmB"
+        },
+        {
+          "pathID": 13697,
+          "gameObject": "HandB"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "gameObject": "InvSlot",
+      "isHand": false,
+      "isMainHand": false,
+      "langKey": "mouth",
+      "label": "嘴部",
+      "useLimbs": [],
+      "component": 12679,
+      "slotField": 0,
+      "limb": 12508,
+      "limbGameObject": "Head",
+      "transformParent": "Head",
+      "localPosition": [
+        0.744,
+        -0.78,
+        0.0
+      ],
+      "dropWhenUnconscious": true,
+      "spriteSortOrder": 0,
+      "useLimbDetails": []
+    },
+    {
+      "index": 3,
+      "gameObject": "InvSlot",
+      "isHand": false,
+      "isMainHand": false,
+      "langKey": "upperback",
+      "label": "上背部",
+      "useLimbs": [],
+      "component": 13803,
+      "slotField": 0,
+      "limb": 12710,
+      "limbGameObject": "UpTorso",
+      "transformParent": "UpTorso",
+      "localPosition": [
+        -0.819,
+        0.109,
+        0.0
+      ],
+      "dropWhenUnconscious": false,
+      "spriteSortOrder": 0,
+      "useLimbDetails": []
+    },
+    {
+      "index": 4,
+      "gameObject": "InvSlot (1)",
+      "isHand": false,
+      "isMainHand": false,
+      "langKey": "middleback",
+      "label": "中背部",
+      "useLimbs": [],
+      "component": 12388,
+      "slotField": 0,
+      "limb": 12710,
+      "limbGameObject": "UpTorso",
+      "transformParent": "UpTorso",
+      "localPosition": [
+        -0.819,
+        -0.5,
+        0.0
+      ],
+      "dropWhenUnconscious": false,
+      "spriteSortOrder": 0,
+      "useLimbDetails": []
+    },
+    {
+      "index": 5,
+      "gameObject": "InvSlot (2)",
+      "isHand": false,
+      "isMainHand": false,
+      "langKey": "lowerback",
+      "label": "下背部",
+      "useLimbs": [],
+      "component": 12858,
+      "slotField": 0,
+      "limb": 13575,
+      "limbGameObject": "DownTorso",
+      "transformParent": "DownTorso",
+      "localPosition": [
+        -0.819,
+        -0.04,
+        0.0
+      ],
+      "dropWhenUnconscious": false,
+      "spriteSortOrder": 0,
+      "useLimbDetails": []
+    }
+  ],
+  "evidence": {
+    "bodyPathID": 11982,
+    "bodyGameObject": "Body",
+    "slotsArrayOffsetInBody": 672,
+    "slotsCountField": 6,
+    "slotFieldRawValues": [
+      {
+        "index": 0,
+        "component": 12128,
+        "slotField": 0
+      },
+      {
+        "index": 1,
+        "component": 13748,
+        "slotField": 0
+      },
+      {
+        "index": 2,
+        "component": 12679,
+        "slotField": 0
+      },
+      {
+        "index": 3,
+        "component": 13803,
+        "slotField": 0
+      },
+      {
+        "index": 4,
+        "component": 12388,
+        "slotField": 0
+      },
+      {
+        "index": 5,
+        "component": 12858,
+        "slotField": 0
+      }
+    ],
+    "inventorySlotLengthCheck": {
+      "rule": "computed end offset == object byte length",
+      "passed": 18,
+      "failed": 0
+    },
+    "inventorySlotSizes": [
+      80,
+      116
+    ],
+    "gameObjectNames": [
+      "InvSlot (3)",
+      "InvSlot (4)",
+      "InvSlot",
+      "InvSlot",
+      "InvSlot (1)",
+      "InvSlot (2)"
+    ],
+    "limbGameObjects": [
+      "HandF",
+      "HandB",
+      "Head",
+      "UpTorso",
+      "UpTorso",
+      "DownTorso"
+    ],
+    "otherBodies": [
+      {
+        "pathID": 13106,
+        "arrayOffset": 672,
+        "countField": 6,
+        "slots": [
+          13353,
+          12364,
+          13985,
+          12635,
+          13727,
+          14199
+        ],
+        "sameLimbGameObjects": true,
+        "sameHandFlags": true
+      },
+      {
+        "pathID": 13250,
+        "arrayOffset": 672,
+        "countField": 6,
+        "slots": [
+          13392,
+          12405,
+          13956,
+          12495,
+          13619,
+          14084
+        ],
+        "sameLimbGameObjects": true,
+        "sameHandFlags": true
+      }
+    ],
+    "checks": {
+      "sixEntries": true,
+      "indicesCover0to5": true,
+      "langKeysUnique": true,
+      "langKeysAreTheSixTableKeys": true,
+      "exactlyTwoHands": true,
+      "exactlyOneMainHand": true,
+      "mainHandImpliesHand": true,
+      "inventorySlotLengthChecks": "18/18 passed, 0 failed"
+    }
+  },
+  "mappingVerdict": {
+    "claimed": {
+      "0": "mainhand",
+      "1": "secondaryhand",
+      "2": "mouth",
+      "3": "upperback",
+      "4": "middleback",
+      "5": "lowerback"
+    },
+    "fromAssets": {
+      "0": "mainhand",
+      "1": "secondaryhand",
+      "2": "mouth",
+      "3": "upperback",
+      "4": "middleback",
+      "5": "lowerback"
+    },
+    "consistent": true,
+    "differences": []
+  }
+}

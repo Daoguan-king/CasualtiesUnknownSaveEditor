@@ -1,0 +1,7085 @@
+{
+  "generatedBy": "tools/extract_recipes.py",
+  "count": 137,
+  "missingNames": [],
+  "recipes": [
+    {
+      "index": 0,
+      "int": 1,
+      "resultId": "rope",
+      "resultName": "纤维绳",
+      "resultAmount": 1,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 2,
+          "name": "纤维",
+          "quality": "foliage",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 1,
+      "int": 12,
+      "resultId": "foliage",
+      "resultName": "植物纤维",
+      "resultAmount": 1,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "funguschunk",
+          "amount": 2,
+          "name": "菌类块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 1.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 2,
+      "int": 5,
+      "resultId": "string",
+      "resultName": "细绳",
+      "resultAmount": 3,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "rope",
+          "amount": 2,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 3,
+      "int": 2,
+      "resultId": "canvas",
+      "resultName": "帆布",
+      "resultAmount": 1,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 3,
+          "name": "纤维",
+          "quality": "foliage",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 4,
+      "int": 3,
+      "resultId": "woodscraps",
+      "resultName": "木屑",
+      "resultAmount": 1,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 3,
+          "name": "纤维",
+          "quality": "foliage",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 5,
+      "int": 0,
+      "resultId": "rippeddressing",
+      "resultName": "撕裂的绷带",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可撕碎",
+          "quality": "rippable",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 6,
+      "int": 1,
+      "resultId": "sterilizedbandage",
+      "resultName": "消毒绷带",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 1,
+          "name": "绷带",
+          "quality": "dressing",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "消毒",
+          "quality": "disinfectant",
+          "qualityAmount": 20.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 7,
+      "int": 4,
+      "resultId": "biochem",
+      "resultName": "生化流体",
+      "resultAmount": 1,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "glowplantfruit",
+          "amount": 1,
+          "name": "发光果",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 10.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 8,
+      "int": 12,
+      "resultId": "biochem",
+      "resultName": "生化流体",
+      "resultAmount": 1,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "lumalgae",
+          "amount": 1,
+          "name": "荧光藻",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 250.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "热源",
+          "quality": "heatsource",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 25.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 9,
+      "int": 7,
+      "resultId": "opium",
+      "resultName": "鸦片",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "mushpear",
+          "amount": 2,
+          "name": "水芦莓",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "液体",
+          "quality": "water",
+          "qualityAmount": 50.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        }
+      ],
+      "resultCondition": 50.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 10,
+      "int": 9,
+      "resultId": "morphine",
+      "resultName": "吗啡",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "opium",
+          "amount": 1,
+          "name": "鸦片",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 75.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "液体",
+          "quality": "water",
+          "qualityAmount": 15.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        }
+      ],
+      "resultCondition": 50.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 11,
+      "int": 11,
+      "resultId": "fentanyl",
+      "resultName": "芬太尼",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "morphine",
+          "amount": 1,
+          "name": "吗啡",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 50.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 25.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "液体",
+          "quality": "water",
+          "qualityAmount": 25.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "flammablepowder",
+          "amount": 1,
+          "name": "易燃粉末",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 10.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 12,
+      "int": 10,
+      "resultId": "painkillers",
+      "resultName": "止痛药",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "reliefcrystalshard",
+          "amount": 1,
+          "name": "镇痛晶碎片",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 20.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "液体",
+          "quality": "water",
+          "qualityAmount": 50.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        }
+      ],
+      "resultCondition": 200.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 13,
+      "int": 18,
+      "resultId": "neuralbooster",
+      "resultName": "神经增强剂",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 50.0
+        },
+        {
+          "id": "braingrow",
+          "amount": 1,
+          "name": "增脑剂",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 80.0
+        },
+        {
+          "id": "mindwipe",
+          "amount": 1,
+          "name": "精神抹除剂",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 30.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "circuitboard",
+          "amount": 1,
+          "name": "电路板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 14,
+      "int": 6,
+      "resultId": "canteen",
+      "resultName": "水壶",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "plasticchunk",
+          "amount": 2,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "rope",
+          "amount": 1,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 15,
+      "int": 5,
+      "resultId": "foliagebag",
+      "resultName": "植物纤维袋",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "rope",
+          "amount": 1,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "canvas",
+          "amount": 2,
+          "name": "帆布",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 16,
+      "int": 7,
+      "resultId": "slingbag",
+      "resultName": "植物纤维挎包",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "foliagebag",
+          "amount": 1,
+          "name": "植物纤维袋",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "string",
+          "amount": 1,
+          "name": "细绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "rope",
+          "amount": 2,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 17,
+      "int": 6,
+      "resultId": "scrapcube",
+      "resultName": "废料块",
+      "resultAmount": 1,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "scrapmetal",
+          "amount": 1,
+          "name": "金属废料",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 18,
+      "int": 5,
+      "resultId": "scrappanel",
+      "resultName": "废料板",
+      "resultAmount": 5,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "scrapcube",
+          "amount": 1,
+          "name": "废料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 19,
+      "int": 5,
+      "resultId": "scraptube",
+      "resultName": "废料管",
+      "resultAmount": 2,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "scrapcube",
+          "amount": 1,
+          "name": "废料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 20,
+      "int": 5,
+      "resultId": "nails",
+      "resultName": "铁钉",
+      "resultAmount": 2,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "scrapcube",
+          "amount": 1,
+          "name": "废料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 21,
+      "int": 4,
+      "resultId": "woodcube",
+      "resultName": "木块",
+      "resultAmount": 1,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "woodscraps",
+          "amount": 3,
+          "name": "木屑",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 22,
+      "int": 4,
+      "resultId": "woodpanel",
+      "resultName": "木板",
+      "resultAmount": 5,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "woodcube",
+          "amount": 1,
+          "name": "木块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 23,
+      "int": 4,
+      "resultId": "stick",
+      "resultName": "木棍",
+      "resultAmount": 2,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "woodcube",
+          "amount": 1,
+          "name": "木块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 24,
+      "int": 4,
+      "resultId": "flimsyknife",
+      "resultName": "脆弱小刀",
+      "resultAmount": 1,
+      "category": "Tools",
+      "ingredients": [
+        {
+          "id": "scrapmetal",
+          "amount": 1,
+          "name": "金属废料",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "rope",
+          "amount": 1,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "woodcube",
+          "amount": 1,
+          "name": "木块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 25,
+      "int": 10,
+      "resultId": "processedcopper",
+      "resultName": "加工铜",
+      "resultAmount": 1,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "rawcopper",
+          "amount": 1,
+          "name": "锈铜矿块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 40.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 26,
+      "int": 10,
+      "resultId": "bundleofwires",
+      "resultName": "一捆导线",
+      "resultAmount": 6,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "processedcopper",
+          "amount": 1,
+          "name": "加工铜",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 3,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 27,
+      "int": 15,
+      "resultId": "titaniumslab",
+      "resultName": "厚钛板",
+      "resultAmount": 1,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "ilmenitechunk",
+          "amount": 1,
+          "name": "钛铁矿块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 50.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "液体",
+          "quality": "water",
+          "qualityAmount": 100.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 4.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 4.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 28,
+      "int": 15,
+      "resultId": "titaniumsheet",
+      "resultName": "钛板",
+      "resultAmount": 5,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "titaniumslab",
+          "amount": 1,
+          "name": "厚钛板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 4.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 29,
+      "int": 15,
+      "resultId": "titaniumrod",
+      "resultName": "钛棒",
+      "resultAmount": 2,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "titaniumslab",
+          "amount": 1,
+          "name": "厚钛板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 4.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 30,
+      "int": 2,
+      "resultId": "alienblood",
+      "resultName": "异种血液",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "bloodsac",
+          "amount": 1,
+          "name": "血囊",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 50.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 31,
+      "int": 9,
+      "resultId": "saline",
+      "resultName": "生理盐水",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "water",
+          "amount": 1,
+          "name": "水",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 150.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "血液",
+          "quality": "blood",
+          "qualityAmount": 15.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        }
+      ],
+      "resultCondition": 175.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 32,
+      "int": 10,
+      "resultId": "antivenom",
+      "resultName": "抗毒血清",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "venomgland",
+          "amount": 1,
+          "name": "毒腺",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 5.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "血液",
+          "quality": "blood",
+          "qualityAmount": 25.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "消毒",
+          "quality": "disinfectant",
+          "qualityAmount": 10.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        }
+      ],
+      "resultCondition": 50.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 33,
+      "int": 8,
+      "resultId": "blood",
+      "resultName": "血液",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "alienblood",
+          "amount": 1,
+          "name": "异种血液",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 99.99
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "液体",
+          "quality": "water",
+          "qualityAmount": 40.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        }
+      ],
+      "resultCondition": 100.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 34,
+      "int": 9,
+      "resultId": "makeshiftwrench",
+      "resultName": "简易扳手",
+      "resultAmount": 1,
+      "category": "Tools",
+      "ingredients": [
+        {
+          "id": "scraptube",
+          "amount": 2,
+          "name": "废料管",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 35,
+      "int": 12,
+      "resultId": "wrench",
+      "resultName": "扳手",
+      "resultAmount": 1,
+      "category": "Tools",
+      "ingredients": [
+        {
+          "id": "makeshiftwrench",
+          "amount": 1,
+          "name": "简易扳手",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scraptube",
+          "amount": 2,
+          "name": "废料管",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 36,
+      "int": 9,
+      "resultId": "crudecleaver",
+      "resultName": "粗制菜刀",
+      "resultAmount": 1,
+      "category": "Tools",
+      "ingredients": [
+        {
+          "id": "stick",
+          "amount": 1,
+          "name": "木棍",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scrappanel",
+          "amount": 2,
+          "name": "废料板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 37,
+      "int": 12,
+      "resultId": "machete",
+      "resultName": "砍刀",
+      "resultAmount": 1,
+      "category": "Tools",
+      "ingredients": [
+        {
+          "id": "crudecleaver",
+          "amount": 1,
+          "name": "粗制菜刀",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scrappanel",
+          "amount": 3,
+          "name": "废料板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 30.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 38,
+      "int": 8,
+      "resultId": "flammablepowder",
+      "resultName": "易燃粉末",
+      "resultAmount": 1,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "stonefruitopen",
+          "amount": 1,
+          "name": "石果",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 5.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 39,
+      "int": 10,
+      "resultId": "casing",
+      "resultName": "弹壳",
+      "resultAmount": 5,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "scrappanel",
+          "amount": 1,
+          "name": "废料板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 40,
+      "int": 12,
+      "resultId": "9mmround",
+      "resultName": "9毫米子弹",
+      "resultAmount": 5,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "casing",
+          "amount": 5,
+          "name": "弹壳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "flammablepowder",
+          "amount": 1,
+          "name": "易燃粉末",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 0.5,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 41,
+      "int": 12,
+      "resultId": "556round",
+      "resultName": "5.56毫米子弹",
+      "resultAmount": 4,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "casing",
+          "amount": 4,
+          "name": "弹壳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "flammablepowder",
+          "amount": 1,
+          "name": "易燃粉末",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 0.5,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 42,
+      "int": 12,
+      "resultId": "12gauge",
+      "resultName": "12号鹿弹",
+      "resultAmount": 3,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "casing",
+          "amount": 3,
+          "name": "弹壳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "flammablepowder",
+          "amount": 1,
+          "name": "易燃粉末",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 0.5,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 43,
+      "int": 12,
+      "resultId": "magazinebase",
+      "resultName": "弹匣基底",
+      "resultAmount": 1,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "scrappanel",
+          "amount": 2,
+          "name": "废料板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 44,
+      "int": 12,
+      "resultId": "smallmagazine",
+      "resultName": "手枪弹匣",
+      "resultAmount": 1,
+      "category": "Tools",
+      "ingredients": [
+        {
+          "id": "magazinebase",
+          "amount": 1,
+          "name": "弹匣基底",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 45,
+      "int": 12,
+      "resultId": "riflemagazine",
+      "resultName": "步枪弹匣",
+      "resultAmount": 1,
+      "category": "Tools",
+      "ingredients": [
+        {
+          "id": "magazinebase",
+          "amount": 1,
+          "name": "弹匣基底",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scrappanel",
+          "amount": 1,
+          "name": "废料板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 46,
+      "int": 8,
+      "resultId": "boxof12gauge",
+      "resultName": "12号霰弹盒",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "woodpanel",
+          "amount": 1,
+          "name": "木板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 2,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 47,
+      "int": 10,
+      "resultId": "dynamite",
+      "resultName": "炸药棒",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "flammablepowder",
+          "amount": 2,
+          "name": "易燃粉末",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "string",
+          "amount": 1,
+          "name": "细绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scrappanel",
+          "amount": 1,
+          "name": "废料板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 48,
+      "int": 4,
+      "resultId": "largecarcass",
+      "resultName": "大型虫尸",
+      "resultAmount": 1,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "carcass",
+          "amount": 2,
+          "name": "硬化虫尸",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 49,
+      "int": 9,
+      "resultId": "circuitboard",
+      "resultName": "电路板",
+      "resultAmount": 1,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "circuitboard",
+          "amount": 1,
+          "name": "电路板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "bundleofwires",
+          "amount": 1,
+          "name": "一捆导线",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": true,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 50,
+      "int": 11,
+      "resultId": "smallbattery",
+      "resultName": "小型电池",
+      "resultAmount": 2,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "processedcopper",
+          "amount": 1,
+          "name": "加工铜",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 2,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 51,
+      "int": 12,
+      "resultId": "mediumbattery",
+      "resultName": "中型电池",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "smallbattery",
+          "amount": 2,
+          "name": "小型电池",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scrappanel",
+          "amount": 1,
+          "name": "废料板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 52,
+      "int": 13,
+      "resultId": "largebattery",
+      "resultName": "大型电池",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "mediumbattery",
+          "amount": 1,
+          "name": "中型电池",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "processedcopper",
+          "amount": 1,
+          "name": "加工铜",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 20.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 53,
+      "int": 10,
+      "resultId": "flashlight",
+      "resultName": "手电筒",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "lightbulb",
+          "amount": 1,
+          "name": "灯泡",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scraptube",
+          "amount": 1,
+          "name": "废料管",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "flexiglass",
+          "amount": 1,
+          "name": "柔性玻璃",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "bundleofwires",
+          "amount": 1,
+          "name": "一捆导线",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "circuitboard",
+          "amount": 1,
+          "name": "电路板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 54,
+      "int": 8,
+      "resultId": "headlamp",
+      "resultName": "头灯",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "flashlight",
+          "amount": 1,
+          "name": "手电筒",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "rope",
+          "amount": 1,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 55,
+      "int": 11,
+      "resultId": "lcdscreen",
+      "resultName": "液晶显示屏",
+      "resultAmount": 1,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "flexiglass",
+          "amount": 1,
+          "name": "柔性玻璃",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "bundleofwires",
+          "amount": 1,
+          "name": "一捆导线",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "circuitboard",
+          "amount": 1,
+          "name": "电路板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 56,
+      "int": 9,
+      "resultId": "flexiglass",
+      "resultName": "柔性玻璃",
+      "resultAmount": 1,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "plasticchunk",
+          "amount": 2,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 57,
+      "int": 11,
+      "resultId": "lightbulb",
+      "resultName": "灯泡",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "flexiglass",
+          "amount": 2,
+          "name": "柔性玻璃",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scrapcube",
+          "amount": 1,
+          "name": "废料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "bundleofwires",
+          "amount": 2,
+          "name": "一捆导线",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 58,
+      "int": 6,
+      "resultId": "limbwraps",
+      "resultName": "缠布",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 2,
+          "name": "绷带",
+          "quality": "dressing",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 59,
+      "int": 4,
+      "resultId": "makeshiftheadlamp",
+      "resultName": "简易头灯",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "carcass",
+          "amount": 1,
+          "name": "硬化虫尸",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "glowplantfruit",
+          "amount": 1,
+          "name": "发光果",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "rope",
+          "amount": 1,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 60,
+      "int": 13,
+      "resultId": "bikehelmet",
+      "resultName": "自行车头盔",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "makeshifthelmet",
+          "amount": 1,
+          "name": "简易头盔",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scrappanel",
+          "amount": 4,
+          "name": "废料板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 61,
+      "int": 17,
+      "resultId": "riothelmet",
+      "resultName": "防暴头盔",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "bikehelmet",
+          "amount": 1,
+          "name": "自行车头盔",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "titaniumsheet",
+          "amount": 3,
+          "name": "钛板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "flexiglass",
+          "amount": 2,
+          "name": "柔性玻璃",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 40.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 62,
+      "int": 8,
+      "resultId": "makeshifthelmet",
+      "resultName": "简易头盔",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "largecarcass",
+          "amount": 1,
+          "name": "大型虫尸",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "rope",
+          "amount": 1,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "string",
+          "amount": 1,
+          "name": "细绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 63,
+      "int": 7,
+      "resultId": "makeshiftdiggingtool",
+      "resultName": "简易挖掘工具",
+      "resultAmount": 1,
+      "category": "Tools",
+      "ingredients": [
+        {
+          "id": "flimsyknife",
+          "amount": 1,
+          "name": "脆弱小刀",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "rope",
+          "amount": 1,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "stick",
+          "amount": 2,
+          "name": "木棍",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 64,
+      "int": 12,
+      "resultId": "makeshiftrifle",
+      "resultName": "简易步枪",
+      "resultAmount": 1,
+      "category": "Tools",
+      "ingredients": [
+        {
+          "id": "magazinebase",
+          "amount": 1,
+          "name": "弹匣基底",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scrappanel",
+          "amount": 2,
+          "name": "废料板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scraptube",
+          "amount": 2,
+          "name": "废料管",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "string",
+          "amount": 1,
+          "name": "细绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 65,
+      "int": 16,
+      "resultId": "minilaserdrill",
+      "resultName": "微型激光钻",
+      "resultAmount": 1,
+      "category": "Tools",
+      "ingredients": [
+        {
+          "id": "titaniumsheet",
+          "amount": 3,
+          "name": "钛板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "flexiglass",
+          "amount": 2,
+          "name": "柔性玻璃",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "bundleofwires",
+          "amount": 2,
+          "name": "一捆导线",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "circuitboard",
+          "amount": 1,
+          "name": "电路板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "flashlight",
+          "amount": 1,
+          "name": "手电筒",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 66,
+      "int": 5,
+      "resultId": "bandage",
+      "resultName": "绷带",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "rippeddressing",
+          "amount": 2,
+          "name": "撕裂的绷带",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 67,
+      "int": 10,
+      "resultId": "lantern",
+      "resultName": "提灯",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "emissivecrystalshard",
+          "amount": 1,
+          "name": "夜明晶碎片",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "flexiglass",
+          "amount": 1,
+          "name": "柔性玻璃",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "woodpanel",
+          "amount": 2,
+          "name": "木板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 68,
+      "int": 12,
+      "resultId": "terrainscanner",
+      "resultName": "地形扫描仪",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "scrappanel",
+          "amount": 3,
+          "name": "废料板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scraptube",
+          "amount": 1,
+          "name": "废料管",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "lcdscreen",
+          "amount": 1,
+          "name": "液晶显示屏",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "bundleofwires",
+          "amount": 1,
+          "name": "一捆导线",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "circuitboard",
+          "amount": 1,
+          "name": "电路板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 69,
+      "int": 11,
+      "resultId": "geigercounter",
+      "resultName": "盖革计数器",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "scrappanel",
+          "amount": 2,
+          "name": "废料板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scrapcube",
+          "amount": 1,
+          "name": "废料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "lcdscreen",
+          "amount": 1,
+          "name": "液晶显示屏",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "bundleofwires",
+          "amount": 1,
+          "name": "一捆导线",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "circuitboard",
+          "amount": 1,
+          "name": "电路板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 70,
+      "int": 10,
+      "resultId": "lockpickingkit",
+      "resultName": "开锁工具包",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "scrappanel",
+          "amount": 1,
+          "name": "废料板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scraptube",
+          "amount": 1,
+          "name": "废料管",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 0.2,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 0.2,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 0.1,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 71,
+      "int": 12,
+      "resultId": "scubadivinggear",
+      "resultName": "高级潜水装备",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "oxygencrystalshard",
+          "amount": 1,
+          "name": "富氧晶碎片",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scrappanel",
+          "amount": 2,
+          "name": "废料板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scraptube",
+          "amount": 2,
+          "name": "废料管",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "flexiglass",
+          "amount": 1,
+          "name": "柔性玻璃",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 2,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        },
+        {
+          "id": "bundleofwires",
+          "amount": 1,
+          "name": "一捆导线",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 72,
+      "int": 12,
+      "resultId": "pickaxe",
+      "resultName": "十字镐",
+      "resultAmount": 1,
+      "category": "Tools",
+      "ingredients": [
+        {
+          "id": "makeshiftdiggingtool",
+          "amount": 1,
+          "name": "简易挖掘工具",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scraptube",
+          "amount": 2,
+          "name": "废料管",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scrappanel",
+          "amount": 1,
+          "name": "废料板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 73,
+      "int": 14,
+      "resultId": "scaffoldingpack",
+      "resultName": "脚手架组件包",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "titaniumslab",
+          "amount": 2,
+          "name": "厚钛板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "rope",
+          "amount": 1,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 74,
+      "int": 13,
+      "resultId": "bigpack",
+      "resultName": "双肩背包",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "rope",
+          "amount": 2,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "woodpanel",
+          "amount": 1,
+          "name": "木板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "canvas",
+          "amount": 5,
+          "name": "帆布",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "string",
+          "amount": 3,
+          "name": "细绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 75,
+      "int": 8,
+      "resultId": "woodsandals",
+      "resultName": "木屐",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "woodpanel",
+          "amount": 2,
+          "name": "木板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "rope",
+          "amount": 2,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "string",
+          "amount": 1,
+          "name": "细绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 76,
+      "int": 16,
+      "resultId": "tacticalboots",
+      "resultName": "战术靴",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "titaniumsheet",
+          "amount": 2,
+          "name": "钛板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 2,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "string",
+          "amount": 2,
+          "name": "细绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 30.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 77,
+      "int": 15,
+      "resultId": "tacticalgloves",
+      "resultName": "战术手套",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "titaniumsheet",
+          "amount": 1,
+          "name": "钛板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scrappanel",
+          "amount": 2,
+          "name": "废料板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "string",
+          "amount": 1,
+          "name": "细绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 20.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 78,
+      "int": 11,
+      "resultId": "duffelbag",
+      "resultName": "帆布背包",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "brokenbag",
+          "amount": 1,
+          "name": "破损的书包",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "rope",
+          "amount": 1,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "string",
+          "amount": 2,
+          "name": "细绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "woodpanel",
+          "amount": 1,
+          "name": "木板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 79,
+      "int": 10,
+      "resultId": "materialpouch",
+      "resultName": "材料包",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "rope",
+          "amount": 1,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "string",
+          "amount": 2,
+          "name": "细绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "woodpanel",
+          "amount": 3,
+          "name": "木板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "canvas",
+          "amount": 1,
+          "name": "帆布",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 80,
+      "int": 10,
+      "resultId": "belt",
+      "resultName": "皮带",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "rope",
+          "amount": 2,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "string",
+          "amount": 2,
+          "name": "细绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "woodpanel",
+          "amount": 1,
+          "name": "木板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 0.5,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 81,
+      "int": 15,
+      "resultId": "traumarig",
+      "resultName": "战术胸挂",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "belt",
+          "amount": 1,
+          "name": "皮带",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "titaniumsheet",
+          "amount": 2,
+          "name": "钛板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "string",
+          "amount": 3,
+          "name": "细绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 3,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 30.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 82,
+      "int": 2,
+      "resultId": "bowlofcereal",
+      "resultName": "谷物碗",
+      "resultAmount": 3,
+      "category": "Food",
+      "ingredients": [
+        {
+          "id": "cereal",
+          "amount": 1,
+          "name": "谷物片",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "milk",
+          "amount": 1,
+          "name": "牛奶",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 500.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": true
+    },
+    {
+      "index": 83,
+      "int": 8,
+      "resultId": "fat",
+      "resultName": "脂肪",
+      "resultAmount": 1,
+      "category": "Food",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 1,
+          "name": "肉类",
+          "quality": "meat",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.2
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "热源",
+          "quality": "heatsource",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 0.5,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 100.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 84,
+      "int": 8,
+      "resultId": "soap",
+      "resultName": "肥皂",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 1,
+          "name": "脂肪",
+          "quality": "fat",
+          "qualityAmount": 50.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "液体",
+          "quality": "water",
+          "qualityAmount": 40.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        }
+      ],
+      "resultCondition": 100.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 85,
+      "int": 10,
+      "resultId": "clottingmush",
+      "resultName": "凝血糊剂",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 1,
+          "name": "血液",
+          "quality": "blood",
+          "qualityAmount": 50.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        },
+        {
+          "id": "flammablepowder",
+          "amount": 1,
+          "name": "易燃粉末",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 86,
+      "int": 10,
+      "resultId": "naltrexone",
+      "resultName": "纳曲酮",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "digestioncrystalshard",
+          "amount": 1,
+          "name": "消化晶碎片",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 20.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "阿片",
+          "quality": "opiate",
+          "qualityAmount": 50.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 200.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 87,
+      "int": 10,
+      "resultId": "antidepressants",
+      "resultName": "抗抑郁药",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "soothingcrystalshard",
+          "amount": 1,
+          "name": "宁神晶碎片",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 20.0
+        },
+        {
+          "id": "flammablepowder",
+          "amount": 1,
+          "name": "易燃粉末",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 200.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 88,
+      "int": 12,
+      "resultId": "autoinjector",
+      "resultName": "自动注射器",
+      "resultAmount": 1,
+      "category": "Materials",
+      "ingredients": [
+        {
+          "id": "scraptube",
+          "amount": 1,
+          "name": "废料管",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "flexiglass",
+          "amount": 1,
+          "name": "柔性玻璃",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        },
+        {
+          "id": "bundleofwires",
+          "amount": 1,
+          "name": "一捆导线",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "circuitboard",
+          "amount": 1,
+          "name": "电路板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 89,
+      "int": 12,
+      "resultId": "chestdrain",
+      "resultName": "胸腔引流器",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "autoinjector",
+          "amount": 1,
+          "name": "自动注射器",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "flexiglass",
+          "amount": 2,
+          "name": "柔性玻璃",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scraptube",
+          "amount": 1,
+          "name": "废料管",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 20.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 90,
+      "int": 14,
+      "resultId": "handcrank",
+      "resultName": "手摇式充电器",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "circuitboard",
+          "amount": 1,
+          "name": "电路板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "titaniumsheet",
+          "amount": 2,
+          "name": "钛板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "processedcopper",
+          "amount": 1,
+          "name": "加工铜",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "bundleofwires",
+          "amount": 2,
+          "name": "一捆导线",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scraptube",
+          "amount": 1,
+          "name": "废料管",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 20.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 91,
+      "int": 8,
+      "resultId": "antisepticmush",
+      "resultName": "抗菌糊剂",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "bulbskin",
+          "amount": 1,
+          "name": "炮果皮",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "roselight",
+          "amount": 1,
+          "name": "发光玫瑰",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 92,
+      "int": 14,
+      "resultId": "plasticbandage",
+      "resultName": "塑料绷带",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 1,
+          "name": "绷带",
+          "quality": "dressing",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.5
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 20.0
+        },
+        {
+          "id": "titaniumsheet",
+          "amount": 1,
+          "name": "钛板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 93,
+      "int": 9,
+      "resultId": "tourniquet",
+      "resultName": "止血带",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "rope",
+          "amount": 2,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "string",
+          "amount": 1,
+          "name": "细绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        }
+      ],
+      "resultCondition": 0.5,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 94,
+      "int": 14,
+      "resultId": "boneweldingtool",
+      "resultName": "骨骼焊接器",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "scrappanel",
+          "amount": 3,
+          "name": "废料板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "bundleofwires",
+          "amount": 2,
+          "name": "一捆导线",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "circuitboard",
+          "amount": 1,
+          "name": "电路板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 20.0
+        },
+        {
+          "id": "lrdserum",
+          "amount": 1,
+          "name": "L.R.D.血清",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 95,
+      "int": 9,
+      "resultId": "tweezers",
+      "resultName": "镊子",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "scrappanel",
+          "amount": 1,
+          "name": "废料板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 0.1,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 96,
+      "int": 12,
+      "resultId": "bloodbag",
+      "resultName": "血袋",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "flexiglass",
+          "amount": 2,
+          "name": "柔性玻璃",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "bundleofwires",
+          "amount": 1,
+          "name": "一捆导线",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "autoinjector",
+          "amount": 1,
+          "name": "自动注射器",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 20.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 97,
+      "int": 11,
+      "resultId": "saline",
+      "resultName": "静脉输液袋",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "plasticchunk",
+          "amount": 2,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "flexiglass",
+          "amount": 2,
+          "name": "柔性玻璃",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scraptube",
+          "amount": 1,
+          "name": "废料管",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 20.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 98,
+      "int": 9,
+      "resultId": "disinfectant",
+      "resultName": "消毒剂",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 25.0
+        },
+        {
+          "id": "soap",
+          "amount": 1,
+          "name": "肥皂",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 50.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "血液",
+          "quality": "blood",
+          "qualityAmount": 25.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "液体",
+          "quality": "water",
+          "qualityAmount": 50.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        }
+      ],
+      "resultCondition": 100.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 99,
+      "int": 9,
+      "resultId": "reliefcream",
+      "resultName": "镇痛膏",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "flammablepowder",
+          "amount": 1,
+          "name": "易燃粉末",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "液体",
+          "quality": "water",
+          "qualityAmount": 50.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "血液",
+          "quality": "blood",
+          "qualityAmount": 25.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "阿片",
+          "quality": "opiate",
+          "qualityAmount": 50.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 25.0
+        }
+      ],
+      "resultCondition": 100.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 100,
+      "int": 8,
+      "resultId": "splint",
+      "resultName": "夹板",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "woodpanel",
+          "amount": 3,
+          "name": "木板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scraptube",
+          "amount": 2,
+          "name": "废料管",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 0.8,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 101,
+      "int": 10,
+      "resultId": "bruisekit",
+      "resultName": "瘀伤治疗包",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 1,
+          "name": "绷带",
+          "quality": "dressing",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.5
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "阿片",
+          "quality": "opiate",
+          "qualityAmount": 25.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 20.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 102,
+      "int": 6,
+      "resultId": "carcasssplint",
+      "resultName": "虫尸夹板",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "largecarcass",
+          "amount": 1,
+          "name": "大型虫尸",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "carcass",
+          "amount": 1,
+          "name": "硬化虫尸",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "rope",
+          "amount": 1,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 103,
+      "int": 10,
+      "resultId": "makeshiftlrd",
+      "resultName": "简易局部复苏装置",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "scrappanel",
+          "amount": 2,
+          "name": "废料板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "bundleofwires",
+          "amount": 1,
+          "name": "一捆导线",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scraptube",
+          "amount": 1,
+          "name": "废料管",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 104,
+      "int": 15,
+      "resultId": "lrd",
+      "resultName": "局部复苏装置",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "makeshiftlrd",
+          "amount": 1,
+          "name": "简易局部复苏装置",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "titaniumsheet",
+          "amount": 2,
+          "name": "钛板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 25.0
+        },
+        {
+          "id": "autoinjector",
+          "amount": 1,
+          "name": "自动注射器",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "circuitboard",
+          "amount": 1,
+          "name": "电路板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "bundleofwires",
+          "amount": 1,
+          "name": "一捆导线",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 105,
+      "int": 11,
+      "resultId": "lrdserum",
+      "resultName": "L.R.D.血清",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 1,
+          "name": "消毒",
+          "quality": "disinfectant",
+          "qualityAmount": 25.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "液体",
+          "quality": "water",
+          "qualityAmount": 50.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "阿片",
+          "quality": "opiate",
+          "qualityAmount": 25.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "血液",
+          "quality": "blood",
+          "qualityAmount": 25.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 25.0
+        }
+      ],
+      "resultCondition": 25.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 106,
+      "int": 2,
+      "resultId": "producejuice",
+      "resultName": "粗制果汁",
+      "resultAmount": 1,
+      "category": "Food",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 3,
+          "name": "果蔬",
+          "quality": "produce",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.5
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 0.1,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 250.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 107,
+      "int": 0,
+      "resultId": "milk",
+      "resultName": "牛奶",
+      "resultAmount": 1,
+      "category": "Food",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 1,
+          "name": "液体",
+          "quality": "water",
+          "qualityAmount": 470.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "powderedmilk",
+          "amount": 1,
+          "name": "奶粉",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 30.0
+        }
+      ],
+      "resultCondition": 500.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 108,
+      "int": 4,
+      "resultId": "refinedjuice",
+      "resultName": "精制果汁",
+      "resultAmount": 1,
+      "category": "Food",
+      "ingredients": [
+        {
+          "id": "producejuice",
+          "amount": 1,
+          "name": "粗制果汁",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 250.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "热源",
+          "quality": "heatsource",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 200.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 109,
+      "int": 9,
+      "resultId": "drillrepairkit",
+      "resultName": "钻探舱维修工具包",
+      "resultAmount": 1,
+      "category": "Tools",
+      "ingredients": [
+        {
+          "id": "scrappanel",
+          "amount": 2,
+          "name": "废料板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "bundleofwires",
+          "amount": 1,
+          "name": "一捆导线",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 110,
+      "int": 14,
+      "resultId": "procoagulant",
+      "resultName": "促凝剂",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "clottingmush",
+          "amount": 1,
+          "name": "凝血糊剂",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "血液",
+          "quality": "blood",
+          "qualityAmount": 50.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "bunchunk",
+          "amount": 2,
+          "name": "凝血菇块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 25.0
+        }
+      ],
+      "resultCondition": 100.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 111,
+      "int": 7,
+      "resultId": "spraybottle",
+      "resultName": "喷雾瓶",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "canteen",
+          "amount": 1,
+          "name": "水壶",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 112,
+      "int": 8,
+      "resultId": "syringe",
+      "resultName": "注射器",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "canteen",
+          "amount": 1,
+          "name": "水壶",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "scraptube",
+          "amount": 1,
+          "name": "废料管",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 113,
+      "int": 8,
+      "resultId": "firestarter",
+      "resultName": "引火器",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "stick",
+          "amount": 2,
+          "name": "木棍",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "rope",
+          "amount": 1,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "纤维",
+          "quality": "foliage",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 114,
+      "int": 4,
+      "resultId": "campfire",
+      "resultName": "营火",
+      "resultAmount": 1,
+      "category": "Food",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 1,
+          "name": "火种",
+          "quality": "firestarter",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.01
+        },
+        {
+          "id": null,
+          "amount": 3,
+          "name": "易燃",
+          "quality": "flammable",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 115,
+      "int": 1,
+      "resultId": "water",
+      "resultName": "水",
+      "resultAmount": 1,
+      "category": "Food",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 1,
+          "name": "热源",
+          "quality": "heatsource",
+          "qualityAmount": 0.1,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "groundwater",
+          "amount": 1,
+          "name": "地下水",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 50.0
+        }
+      ],
+      "resultCondition": 50.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 116,
+      "int": 7,
+      "resultId": "charcoal",
+      "resultName": "炭条",
+      "resultAmount": 3,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 1,
+          "name": "热源",
+          "quality": "heatsource",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "droppings",
+          "amount": 1,
+          "name": "屎",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 10.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 117,
+      "int": 7,
+      "resultId": "bread",
+      "resultName": "面包",
+      "resultAmount": 1,
+      "category": "Food",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 1,
+          "name": "热源",
+          "quality": "heatsource",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "面粉",
+          "quality": "flour",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "液体",
+          "quality": "water",
+          "qualityAmount": 150.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 118,
+      "int": 5,
+      "resultId": "pancake",
+      "resultName": "煎饼",
+      "resultAmount": 1,
+      "category": "Food",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 1,
+          "name": "热源",
+          "quality": "heatsource",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "面粉",
+          "quality": "flour",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "液体",
+          "quality": "water",
+          "qualityAmount": 100.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "sap",
+          "amount": 1,
+          "name": "树汁",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 100.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 119,
+      "int": 6,
+      "resultId": "ryeflour",
+      "resultName": "垂麦粉",
+      "resultAmount": 1,
+      "category": "Food",
+      "ingredients": [
+        {
+          "id": "ryebulb",
+          "amount": 1,
+          "name": "垂麦球囊",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 0.5,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 120,
+      "int": 5,
+      "resultId": "torch",
+      "resultName": "火把",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "stick",
+          "amount": 2,
+          "name": "木棍",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "rope",
+          "amount": 1,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 0.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 121,
+      "int": 5,
+      "resultId": "torch",
+      "resultName": "火把",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "torch",
+          "amount": 1,
+          "name": "火把",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "热源",
+          "quality": "heatsource",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": true,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 122,
+      "int": 9,
+      "resultId": "nutrientbar",
+      "resultName": "营养棒",
+      "resultAmount": 1,
+      "category": "Food",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 1,
+          "name": "热源",
+          "quality": "heatsource",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "面粉",
+          "quality": "flour",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "果蔬",
+          "quality": "produce",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.5
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "脂肪",
+          "quality": "fat",
+          "qualityAmount": 25.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 123,
+      "int": 6,
+      "resultId": "pemmican",
+      "resultName": "干肉饼",
+      "resultAmount": 1,
+      "category": "Food",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 1,
+          "name": "热源",
+          "quality": "heatsource",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "肉类",
+          "quality": "meat",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.2
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "果蔬",
+          "quality": "produce",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.5
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "脂肪",
+          "quality": "fat",
+          "qualityAmount": 75.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 124,
+      "int": 7,
+      "resultId": "foliagemeal",
+      "resultName": "叶片餐",
+      "resultAmount": 1,
+      "category": "Food",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 1,
+          "name": "热源",
+          "quality": "heatsource",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 3,
+          "name": "纤维",
+          "quality": "foliage",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "果蔬",
+          "quality": "produce",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 125,
+      "int": 6,
+      "resultId": "burger",
+      "resultName": "汉堡",
+      "resultAmount": 1,
+      "category": "Food",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 1,
+          "name": "热源",
+          "quality": "heatsource",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "肉类",
+          "quality": "meat",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.2
+        },
+        {
+          "id": "bread",
+          "amount": 1,
+          "name": "面包",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.2
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "调料",
+          "quality": "condiment",
+          "qualityAmount": 25.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 126,
+      "int": 9,
+      "resultId": "soup",
+      "resultName": "汤",
+      "resultAmount": 1,
+      "category": "Food",
+      "ingredients": [
+        {
+          "id": null,
+          "amount": 1,
+          "name": "热源",
+          "quality": "heatsource",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "液体",
+          "quality": "water",
+          "qualityAmount": 200.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "脂肪",
+          "quality": "fat",
+          "qualityAmount": 25.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "肉类",
+          "quality": "meat",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.2
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 0.5,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 300.0,
+      "resultIsLiquid": true,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 127,
+      "int": 14,
+      "resultId": "icepack",
+      "resultName": "冰敷包",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "frigiantfruit",
+          "amount": 2,
+          "name": "寒霜果",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.5
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "液体",
+          "quality": "water",
+          "qualityAmount": 200.0,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "canvas",
+          "amount": 2,
+          "name": "帆布",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "string",
+          "amount": 1,
+          "name": "细绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "circuitboard",
+          "amount": 1,
+          "name": "电路板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 128,
+      "int": 10,
+      "resultId": "scarf",
+      "resultName": "围巾",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "canvas",
+          "amount": 5,
+          "name": "帆布",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "string",
+          "amount": 3,
+          "name": "细绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 129,
+      "int": 99,
+      "resultId": "mercscarf",
+      "resultName": "雇佣兵围巾",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "scarf",
+          "amount": 1,
+          "name": "围巾",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "circuitboard",
+          "amount": 1,
+          "name": "电路板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "regenerationchip",
+          "amount": 1,
+          "name": "REL-超再生增幅芯片",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "capacitorchip",
+          "amount": 1,
+          "name": "微单体电容器",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "swapchip",
+          "amount": 1,
+          "name": "0.2.9-意识转移芯片",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "rejuvenationchip",
+          "amount": 1,
+          "name": "0.0.7-紧急再生芯片",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "aichip",
+          "amount": 1,
+          "name": "微型AI芯片",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "kineticchip",
+          "amount": 1,
+          "name": "动量耦合芯片",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 130,
+      "int": 16,
+      "resultId": "titaniumpickaxe",
+      "resultName": "钛镐",
+      "resultAmount": 1,
+      "category": "Tools",
+      "ingredients": [
+        {
+          "id": "pickaxe",
+          "amount": 1,
+          "name": "十字镐",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "titaniumrod",
+          "amount": 2,
+          "name": "钛棒",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 20.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 131,
+      "int": 16,
+      "resultId": "titaniummachete",
+      "resultName": "钛合金砍刀",
+      "resultAmount": 1,
+      "category": "Tools",
+      "ingredients": [
+        {
+          "id": "machete",
+          "amount": 1,
+          "name": "砍刀",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "titaniumsheet",
+          "amount": 2,
+          "name": "钛板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 20.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 132,
+      "int": 16,
+      "resultId": "titaniummultitool",
+      "resultName": "钛合金多功能工具",
+      "resultAmount": 1,
+      "category": "Tools",
+      "ingredients": [
+        {
+          "id": "titaniumsheet",
+          "amount": 1,
+          "name": "钛板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "titaniumrod",
+          "amount": 1,
+          "name": "钛棒",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 1,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 20.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 133,
+      "int": 7,
+      "resultId": "peglimb",
+      "resultName": "木制假肢",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "woodcube",
+          "amount": 2,
+          "name": "木块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "stick",
+          "amount": 2,
+          "name": "木棍",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "rope",
+          "amount": 2,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 1.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 20.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 134,
+      "int": 11,
+      "resultId": "steelprosthesis",
+      "resultName": "钢制假肢",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "scrapcube",
+          "amount": 2,
+          "name": "废料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "scraptube",
+          "amount": 2,
+          "name": "废料管",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 2,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 1.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 30.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 135,
+      "int": 16,
+      "resultId": "peo",
+      "resultName": "操作增强型假肢",
+      "resultAmount": 1,
+      "category": "Medicine",
+      "ingredients": [
+        {
+          "id": "titaniumslab",
+          "amount": 1,
+          "name": "厚钛板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "titaniumsheet",
+          "amount": 3,
+          "name": "钛板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "plasticchunk",
+          "amount": 2,
+          "name": "塑料块",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": "circuitboard",
+          "amount": 2,
+          "name": "电路板",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": "bundleofwires",
+          "amount": 1,
+          "name": "一捆导线",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.9
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 1.0
+        },
+        {
+          "id": "biochem",
+          "amount": 1,
+          "name": "生化流体",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": true,
+          "destroyItem": true,
+          "minimumCondition": 30.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可捶打",
+          "quality": "hammering",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "可切割",
+          "quality": "cutting",
+          "qualityAmount": 1.0,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    },
+    {
+      "index": 136,
+      "int": 7,
+      "resultId": "climbingrope",
+      "resultName": "攀爬绳",
+      "resultAmount": 1,
+      "category": "Utilities",
+      "ingredients": [
+        {
+          "id": "rope",
+          "amount": 2,
+          "name": "纤维绳",
+          "quality": null,
+          "qualityAmount": null,
+          "isLiquid": false,
+          "destroyItem": true,
+          "minimumCondition": 0.0
+        },
+        {
+          "id": null,
+          "amount": 1,
+          "name": "铁钉",
+          "quality": "nails",
+          "qualityAmount": 0.5,
+          "isLiquid": false,
+          "destroyItem": false,
+          "minimumCondition": 0.0
+        }
+      ],
+      "resultCondition": 1.0,
+      "resultIsLiquid": false,
+      "isRepair": false,
+      "dontDrainResultLiquid": false
+    }
+  ]
+}

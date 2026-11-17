@@ -1,0 +1,682 @@
+{
+  "generatedBy": "tools/extract_liquids.py",
+  "count": 75,
+  "missingNames": [],
+  "liquids": [
+    {
+      "id": "alcohol",
+      "localeName": "alcohol",
+      "name": "酒精",
+      "nameEn": "Alcohol",
+      "color": "#76e667",
+      "valuePerLiter": 12.0,
+      "danger": false
+    },
+    {
+      "id": "alienblood",
+      "localeName": "alienblood",
+      "name": "异种血液",
+      "nameEn": "Alien blood",
+      "color": "#ffeb12",
+      "valuePerLiter": 20.0,
+      "danger": false
+    },
+    {
+      "id": "amiodarone",
+      "localeName": "amiodarone",
+      "name": "胺碘酮",
+      "nameEn": "Amiodarone",
+      "color": "#ffdcd4",
+      "valuePerLiter": 185.0,
+      "danger": false
+    },
+    {
+      "id": "antibiotics",
+      "localeName": "antibiotics",
+      "name": "抗生素",
+      "nameEn": "Antibiotics",
+      "color": "#9e5dec",
+      "valuePerLiter": 180.0,
+      "danger": false
+    },
+    {
+      "id": "antidepressants",
+      "localeName": "antidepressants",
+      "name": "抗抑郁药",
+      "nameEn": "Antidepressants",
+      "color": "#64a185",
+      "valuePerLiter": 120.0,
+      "danger": true
+    },
+    {
+      "id": "antirad",
+      "localeName": "antirad",
+      "name": "抗辐射药",
+      "nameEn": "Anti-rad",
+      "color": "#fbc106",
+      "valuePerLiter": 120.0,
+      "danger": false
+    },
+    {
+      "id": "antiserum",
+      "localeName": "antiserum",
+      "name": "抗血清",
+      "nameEn": "Antiserum",
+      "color": "#753e5d",
+      "valuePerLiter": 160.0,
+      "danger": false
+    },
+    {
+      "id": "antivenom",
+      "localeName": "antivenom",
+      "name": "抗毒血清",
+      "nameEn": "Antivenom",
+      "color": "#4dff70",
+      "valuePerLiter": 130.0,
+      "danger": false
+    },
+    {
+      "id": "applejuice",
+      "localeName": "applejuice",
+      "name": "苹果汁",
+      "nameEn": "Apple juice",
+      "color": "#c5ff61",
+      "valuePerLiter": 14.0,
+      "danger": false
+    },
+    {
+      "id": "biochem",
+      "localeName": "biochem",
+      "name": "生化流体",
+      "nameEn": "Bio-chem fluid",
+      "color": "#b3ff25",
+      "valuePerLiter": 45.0,
+      "danger": false
+    },
+    {
+      "id": "bleach",
+      "localeName": "bleach",
+      "name": "漂白剂",
+      "nameEn": "Bleach",
+      "color": "#ffffff",
+      "valuePerLiter": 6.0,
+      "danger": true
+    },
+    {
+      "id": "blood",
+      "localeName": "blood",
+      "name": "血液",
+      "nameEn": "Blood",
+      "color": "#ffc900",
+      "valuePerLiter": 20.0,
+      "danger": false
+    },
+    {
+      "id": "braingrow",
+      "localeName": "braingrow",
+      "name": "增脑剂",
+      "nameEn": "Braingrow",
+      "color": "#c0535e",
+      "valuePerLiter": 500.0,
+      "danger": true
+    },
+    {
+      "id": "carbonatedwater",
+      "localeName": "carbonatedwater",
+      "name": "碳酸水",
+      "nameEn": "Carbonated water",
+      "color": "#66a6ff",
+      "valuePerLiter": 17.0,
+      "danger": false
+    },
+    {
+      "id": "ceftriaxone",
+      "localeName": "ceftriaxone",
+      "name": "头孢曲松",
+      "nameEn": "Ceftriaxone",
+      "color": "#46cf30",
+      "valuePerLiter": 170.0,
+      "danger": false
+    },
+    {
+      "id": "cereal",
+      "localeName": "cereal",
+      "name": "谷物粥",
+      "nameEn": "Cereal mix",
+      "color": "#ffdb9c",
+      "valuePerLiter": 20.0,
+      "danger": false
+    },
+    {
+      "id": "chloroform",
+      "localeName": "chloroform",
+      "name": "氯仿",
+      "nameEn": "Chloroform",
+      "color": "#bad1a7",
+      "valuePerLiter": 12.0,
+      "danger": false
+    },
+    {
+      "id": "chocolatemilk",
+      "localeName": "chocolatemilk",
+      "name": "巧克力牛奶",
+      "nameEn": "Chocolate milk",
+      "color": "#8f5c37",
+      "valuePerLiter": 10.0,
+      "danger": false
+    },
+    {
+      "id": "coffee",
+      "localeName": "coffee",
+      "name": "咖啡",
+      "nameEn": "Coffee",
+      "color": "#50321e",
+      "valuePerLiter": 14.0,
+      "danger": false
+    },
+    {
+      "id": "dirtywater",
+      "localeName": "dirtywater",
+      "name": "污水",
+      "nameEn": "Dirty water",
+      "color": "#997e43",
+      "valuePerLiter": 0.0,
+      "danger": false
+    },
+    {
+      "id": "disinfectant",
+      "localeName": "disinfectant",
+      "name": "消毒剂",
+      "nameEn": "Antiseptic",
+      "color": "#c8ffff",
+      "valuePerLiter": 55.0,
+      "danger": false
+    },
+    {
+      "id": "energydrink",
+      "localeName": "energydrink",
+      "name": "能量饮料",
+      "nameEn": "Energy drink",
+      "color": "#bb00ff",
+      "valuePerLiter": 20.0,
+      "danger": false
+    },
+    {
+      "id": "epinephrine",
+      "localeName": "epinephrine",
+      "name": "肾上腺素",
+      "nameEn": "Epinephrine",
+      "color": "#a1ffe9",
+      "valuePerLiter": 80.0,
+      "danger": false
+    },
+    {
+      "id": "fat",
+      "localeName": "fat",
+      "name": "脂肪",
+      "nameEn": "Fat",
+      "color": "#d1be3f",
+      "valuePerLiter": 14.0,
+      "danger": false
+    },
+    {
+      "id": "fentanyl",
+      "localeName": "fentanyl",
+      "name": "芬太尼",
+      "nameEn": "Fentanyl",
+      "color": "#57f2ff",
+      "valuePerLiter": 2000.0,
+      "danger": true
+    },
+    {
+      "id": "groundwater",
+      "localeName": "groundwater",
+      "name": "地下水",
+      "nameEn": "Groundwater",
+      "color": "#598ad4",
+      "valuePerLiter": 4.0,
+      "danger": false
+    },
+    {
+      "id": "heroin",
+      "localeName": "heroin",
+      "name": "海洛因",
+      "nameEn": "Heroin",
+      "color": "#ebebeb",
+      "valuePerLiter": 140.0,
+      "danger": true
+    },
+    {
+      "id": "highgradestimulant",
+      "localeName": "highgradestimulant",
+      "name": "医用级兴奋剂",
+      "nameEn": "Medical-grade stimulant",
+      "color": "#ffffff",
+      "valuePerLiter": 32.0,
+      "danger": false
+    },
+    {
+      "id": "hotsauce",
+      "localeName": "hotsauce",
+      "name": "辣酱",
+      "nameEn": "Hot sauce",
+      "color": "#ff0000",
+      "valuePerLiter": 14.0,
+      "danger": false
+    },
+    {
+      "id": "icecream",
+      "localeName": "icecream",
+      "name": "冰激凌",
+      "nameEn": "Ice cream",
+      "color": "#edffbd",
+      "valuePerLiter": 26.0,
+      "danger": false
+    },
+    {
+      "id": "icetea",
+      "localeName": "icedtea",
+      "name": "冰茶",
+      "nameEn": "Iced tea",
+      "color": "#fa8734",
+      "valuePerLiter": 12.0,
+      "danger": false
+    },
+    {
+      "id": "keratinbooster",
+      "localeName": "keratinbooster",
+      "name": "角蛋白增强剂",
+      "nameEn": "Keratin-booster",
+      "color": "#ffd154",
+      "valuePerLiter": 150.0,
+      "danger": false
+    },
+    {
+      "id": "ketchup",
+      "localeName": "ketchup",
+      "name": "番茄酱",
+      "nameEn": "Ketchup",
+      "color": "#ff2b2b",
+      "valuePerLiter": 18.0,
+      "danger": false
+    },
+    {
+      "id": "lemonade",
+      "localeName": "lemonade",
+      "name": "柠檬水",
+      "nameEn": "Lemonade",
+      "color": "#fff761",
+      "valuePerLiter": 14.0,
+      "danger": false
+    },
+    {
+      "id": "localanesthetic",
+      "localeName": "localanesthetic",
+      "name": "局部麻醉剂",
+      "nameEn": "Local anesthetic",
+      "color": "#cebaff",
+      "valuePerLiter": 120.0,
+      "danger": false
+    },
+    {
+      "id": "lowgradestimulant",
+      "localeName": "lowgradestimulant",
+      "name": "杂牌兴奋剂",
+      "nameEn": "Off-brand stimulant",
+      "color": "#909090",
+      "valuePerLiter": 20.0,
+      "danger": false
+    },
+    {
+      "id": "lrdserum",
+      "localeName": "lrdserum",
+      "name": "L.R.D.血清",
+      "nameEn": "L.R.D. Serum",
+      "color": "#d4cb87",
+      "valuePerLiter": 120.0,
+      "danger": false
+    },
+    {
+      "id": "lumalgae",
+      "localeName": "lumalgae",
+      "name": "荧光藻",
+      "nameEn": "Lumalgae",
+      "color": "#219900",
+      "valuePerLiter": 2.0,
+      "danger": false
+    },
+    {
+      "id": "mercury",
+      "localeName": "mercury",
+      "name": "汞",
+      "nameEn": "Mercury",
+      "color": "#4d4d4d",
+      "valuePerLiter": 8.0,
+      "danger": true
+    },
+    {
+      "id": "midgradestimulant",
+      "localeName": "midgradestimulant",
+      "name": "烈性兴奋剂",
+      "nameEn": "Hard stimulant",
+      "color": "#d1d1d1",
+      "valuePerLiter": 24.0,
+      "danger": false
+    },
+    {
+      "id": "milk",
+      "localeName": "milk",
+      "name": "牛奶",
+      "nameEn": "Milk",
+      "color": "#ffffff",
+      "valuePerLiter": 13.0,
+      "danger": false
+    },
+    {
+      "id": "mindwipe",
+      "localeName": "mindwipe",
+      "name": "精神抹除剂",
+      "nameEn": "Mindwipe",
+      "color": "#21485e",
+      "valuePerLiter": 1333.0,
+      "danger": true
+    },
+    {
+      "id": "mold",
+      "localeName": "mold",
+      "name": "霉菌",
+      "nameEn": "Mold",
+      "color": "#3f4f32",
+      "valuePerLiter": 0.0,
+      "danger": true
+    },
+    {
+      "id": "morphine",
+      "localeName": "morphine",
+      "name": "吗啡",
+      "nameEn": "Morphine",
+      "color": "#967b5f",
+      "valuePerLiter": 110.0,
+      "danger": true
+    },
+    {
+      "id": "naloxone",
+      "localeName": "naloxone",
+      "name": "纳洛酮",
+      "nameEn": "Naloxone",
+      "color": "#e8d8be",
+      "valuePerLiter": 80.0,
+      "danger": false
+    },
+    {
+      "id": "naltrexone",
+      "localeName": "naltrexone",
+      "name": "纳曲酮",
+      "nameEn": "Naltrexone",
+      "color": "#ffffff",
+      "valuePerLiter": 100.0,
+      "danger": false
+    },
+    {
+      "id": "oil",
+      "localeName": "oil",
+      "name": "原油",
+      "nameEn": "Oil",
+      "color": "#473215",
+      "valuePerLiter": 1.0,
+      "danger": false
+    },
+    {
+      "id": "oliveoil",
+      "localeName": "oliveoil",
+      "name": "橄榄油",
+      "nameEn": "Olive oil",
+      "color": "#818707",
+      "valuePerLiter": 14.0,
+      "danger": false
+    },
+    {
+      "id": "opium",
+      "localeName": "opium",
+      "name": "鸦片",
+      "nameEn": "Opium",
+      "color": "#ffeb51",
+      "valuePerLiter": 100.0,
+      "danger": false
+    },
+    {
+      "id": "orangejuice",
+      "localeName": "orangejuice",
+      "name": "橙汁",
+      "nameEn": "Orange juice",
+      "color": "#ff8929",
+      "valuePerLiter": 14.0,
+      "danger": false
+    },
+    {
+      "id": "oxyline",
+      "localeName": "oxyline",
+      "name": "氧脉素",
+      "nameEn": "Oxyline",
+      "color": "#4dffde",
+      "valuePerLiter": 80.0,
+      "danger": true
+    },
+    {
+      "id": "painkillers",
+      "localeName": "painkillers",
+      "name": "止痛药",
+      "nameEn": "Painkillers",
+      "color": "#ffffff",
+      "valuePerLiter": 125.0,
+      "danger": true
+    },
+    {
+      "id": "powderedmilk",
+      "localeName": "powderedmilk",
+      "name": "奶粉",
+      "nameEn": "Powdered milk",
+      "color": "#f2f2f2",
+      "valuePerLiter": 26.0,
+      "danger": false
+    },
+    {
+      "id": "procoagulant",
+      "localeName": "procoagulant",
+      "name": "促凝剂",
+      "nameEn": "Procoagulant",
+      "color": "#bd5660",
+      "valuePerLiter": 250.0,
+      "danger": false
+    },
+    {
+      "id": "producejuice",
+      "localeName": "producejuice",
+      "name": "粗制果汁",
+      "nameEn": "Produce juice",
+      "color": "#fffeb5",
+      "valuePerLiter": 14.0,
+      "danger": false
+    },
+    {
+      "id": "radwater",
+      "localeName": "radwater",
+      "name": "过滤水",
+      "nameEn": "Clean water",
+      "color": "#79e0dd",
+      "valuePerLiter": 10.0,
+      "danger": false
+    },
+    {
+      "id": "redblood",
+      "localeName": "redblood",
+      "name": "红色血液",
+      "nameEn": "Red blood",
+      "color": "#c70a0a",
+      "valuePerLiter": 18.0,
+      "danger": false
+    },
+    {
+      "id": "redsludge",
+      "localeName": "redsludge",
+      "name": "猩红垢泥",
+      "nameEn": "Red sludge",
+      "color": "#c92e1c",
+      "valuePerLiter": 0.0,
+      "danger": false
+    },
+    {
+      "id": "refinedjuice",
+      "localeName": "refinedjuice",
+      "name": "精制果汁",
+      "nameEn": "Refined juice",
+      "color": "#ffe173",
+      "valuePerLiter": 18.0,
+      "danger": false
+    },
+    {
+      "id": "reliefcream",
+      "localeName": "reliefcream",
+      "name": "镇痛膏",
+      "nameEn": "Relief cream",
+      "color": "#bd5bc9",
+      "valuePerLiter": 120.0,
+      "danger": false
+    },
+    {
+      "id": "ringersolution",
+      "localeName": "ringersolution",
+      "name": "林格氏液",
+      "nameEn": "Ringer's solution",
+      "color": "#ededed",
+      "valuePerLiter": 24.0,
+      "danger": false
+    },
+    {
+      "id": "saline",
+      "localeName": "saline",
+      "name": "生理盐水",
+      "nameEn": "Saline",
+      "color": "#c4c4c4",
+      "valuePerLiter": 20.0,
+      "danger": false
+    },
+    {
+      "id": "sap",
+      "localeName": "sap",
+      "name": "树汁",
+      "nameEn": "Tree sap",
+      "color": "#f7bd34",
+      "valuePerLiter": 15.0,
+      "danger": false
+    },
+    {
+      "id": "sleepingpills",
+      "localeName": "sleepingpills",
+      "name": "安眠药",
+      "nameEn": "Sleeping pills",
+      "color": "#8ca893",
+      "valuePerLiter": 320.0,
+      "danger": true
+    },
+    {
+      "id": "soap",
+      "localeName": "soap",
+      "name": "肥皂",
+      "nameEn": "Soap",
+      "color": "#a1ffba",
+      "valuePerLiter": 14.0,
+      "danger": false
+    },
+    {
+      "id": "soda",
+      "localeName": "soda",
+      "name": "汽水",
+      "nameEn": "Soda",
+      "color": "#705e49",
+      "valuePerLiter": 16.0,
+      "danger": false
+    },
+    {
+      "id": "sodiumnitroprusside",
+      "localeName": "sodiumnitroprusside",
+      "name": "硝普钠",
+      "nameEn": "Sodium nitroprusside",
+      "color": "#cf5829",
+      "valuePerLiter": 150.0,
+      "danger": false
+    },
+    {
+      "id": "soup",
+      "localeName": "soup",
+      "name": "汤",
+      "nameEn": "Soup",
+      "color": "#7d5100",
+      "valuePerLiter": 20.0,
+      "danger": false
+    },
+    {
+      "id": "sportsdrink",
+      "localeName": "sportsdrink",
+      "name": "运动饮料",
+      "nameEn": "Sports drink",
+      "color": "#0a3bff",
+      "valuePerLiter": 20.0,
+      "danger": false
+    },
+    {
+      "id": "streptokinase",
+      "localeName": "streptokinase",
+      "name": "链激酶",
+      "nameEn": "Streptokinase",
+      "color": "#427e82",
+      "valuePerLiter": 150.0,
+      "danger": false
+    },
+    {
+      "id": "urine",
+      "localeName": "urine",
+      "name": "柠檬水",
+      "nameEn": "Lemonade",
+      "color": "#ffda54",
+      "valuePerLiter": 2.0,
+      "danger": false
+    },
+    {
+      "id": "vasopressin",
+      "localeName": "vasopressin",
+      "name": "血管加压素",
+      "nameEn": "Vasopressin",
+      "color": "#ffffff",
+      "valuePerLiter": 150.0,
+      "danger": false
+    },
+    {
+      "id": "water",
+      "localeName": "cleanwater",
+      "name": "过滤水",
+      "nameEn": "Clean water",
+      "color": "#75d1ff",
+      "valuePerLiter": 14.0,
+      "danger": false
+    },
+    {
+      "id": "woundglue",
+      "localeName": "woundglue",
+      "name": "伤口粘合胶",
+      "nameEn": "Wound glue",
+      "color": "#c9c9c9",
+      "valuePerLiter": 150.0,
+      "danger": false
+    },
+    {
+      "id": "yogurt",
+      "localeName": "yogurt",
+      "name": "酸奶",
+      "nameEn": "Yogurt",
+      "color": "#d5ebf0",
+      "valuePerLiter": 26.0,
+      "danger": false
+    }
+  ]
+}

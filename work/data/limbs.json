@@ -1,0 +1,126 @@
+{
+  "count": 15,
+  "method": "Body.cs:1896-1926 GetTopOfExtremity：索引<=2 返回 null（0/1/2 不是四肢），3~5→limbs[3]、6~8→limbs[6]、9~11→limbs[9]、12~14→limbs[12]，即四肢是 4 组连续的 3 段链；Body.cs:704-707 bothHandsUnusable 用 limbs[5]/limbs[8] 的总力量 => 5、8 是手（所以 3~5、6~8 是两条手臂，先臂后腿）；Body.cs:2306-2326 GetAttackingLimb：handSlot 0→5→4→3，handSlot 1→8→7→6（手→前臂→上臂）；Body.cs:4328 hasLegs = !limbs[11].dismembered || !limbs[14].dismembered => 11、14 是脚（腿链 9~11、12~14）；Body.cs:2260 排便位置取 limbs[2] => 2 是腹/骨盆；Body.cs:2342 瞄准与后坐力基准取 limbs[1] => 1 是上躯干；Body.cs:744 死亡判据含 limbs[0].muscleHealth => 0 是头（脑）；Limb.cs:80-100 的 isVital/isHead/isAbdomen/isLegLimb/isArm 由 prefab 设定，资源复核（UnityPy，resources.assets 中 Body MonoBehaviour 的 limbs PPtr 数组）得到 Head,UpTorso,DownTorso,UpArmF,DownArmF,HandF,UpArmB,DownArmB,HandB,ThighF,CrusF,FootF,ThighB,CrusB,FootB；Lang/zh-CN.json other.{名}=全称、other.{名}Short=简称（F=右、B=左，如 UpArmF=右上臂/UpArmB=左上臂），Limb.cs:47-49 fullName/shortName 即按该规则取值",
+  "limbs": [
+    {
+      "index": 0,
+      "key": "Head",
+      "label": "头部",
+      "shortLabel": "头",
+      "isVital": false,
+      "evidence": "prefab 轴：isHead=1、isVital=0；Lang other.Head=头部 / HeadShort=头；Body.cs:744 limbs[0].muscleHealth<25f 进入濒死判据（头部/脑）"
+    },
+    {
+      "index": 1,
+      "key": "UpTorso",
+      "label": "胸部",
+      "shortLabel": "胸",
+      "isVital": true,
+      "evidence": "prefab 轴：isVital=1、generateHeat=1；Lang other.UpTorso=胸部 / Short=胸；Body.cs:2342 瞄准基准、AEDMinigame.cs:110 除颤目标为 limbs[1]；Limb.cs:791-796 isVital 肢体肌肉坏死会令 respiratoryRate=0"
+    },
+    {
+      "index": 2,
+      "key": "DownTorso",
+      "label": "腹部",
+      "shortLabel": "肚子",
+      "isVital": false,
+      "evidence": "prefab 轴：isAbdomen=1、generateHeat=1，且 isLegLimb=1 —— 这正解释了 Body.cs:3815 的 limb.isLegLimb && limb != limbs[2] 特判（反证索引 2 = DownTorso）；Lang other.DownTorso=腹部 / Short=肚子；Body.cs:2260 排便取 limbs[2].transform.position；Body.cs:870-873 被货物刺穿伤害 limbs[2]"
+    },
+    {
+      "index": 3,
+      "key": "UpArmF",
+      "label": "右上臂",
+      "shortLabel": "右臂",
+      "isVital": false,
+      "evidence": "prefab 轴：isArm=1、distanceToHeart=1、linked=UpArmF 链顶；Lang other.UpArmF=右上臂 / Short=右臂；Body.cs:1911 GetTopOfExtremity(3~5)=limbs[3]"
+    },
+    {
+      "index": 4,
+      "key": "DownArmF",
+      "label": "右前臂",
+      "shortLabel": "右臂",
+      "isVital": false,
+      "evidence": "prefab 轴：isArm=1、distanceToHeart=2；Lang other.DownArmF=右前臂 / Short=右臂；Body.cs:2312-2316 handSlot0 第二顺位"
+    },
+    {
+      "index": 5,
+      "key": "HandF",
+      "label": "右手",
+      "shortLabel": "右手",
+      "isVital": false,
+      "evidence": "prefab 轴：isArm=1、distanceToHeart=3；Lang other.HandF=右手；Body.cs:2308-2310 handSlot0 首选、Body.cs:704 bothHandsUnusable"
+    },
+    {
+      "index": 6,
+      "key": "UpArmB",
+      "label": "左上臂",
+      "shortLabel": "左臂",
+      "isVital": false,
+      "evidence": "prefab 轴：isArm=1、distanceToHeart=1；Lang other.UpArmB=左上臂 / Short=左臂；Body.cs:1915 GetTopOfExtremity(6~8)=limbs[6]"
+    },
+    {
+      "index": 7,
+      "key": "DownArmB",
+      "label": "左前臂",
+      "shortLabel": "左臂",
+      "isVital": false,
+      "evidence": "prefab 轴：isArm=1、distanceToHeart=2；Lang other.DownArmB=左前臂 / Short=左臂；Body.cs:2322-2326 handSlot1 第二顺位；SelfHarmer.cs:267 随机取 limbs[4]/limbs[7]（前臂自伤）"
+    },
+    {
+      "index": 8,
+      "key": "HandB",
+      "label": "左手",
+      "shortLabel": "左手",
+      "isVital": false,
+      "evidence": "prefab 轴：isArm=1、distanceToHeart=3；Lang other.HandB=左手；Body.cs:2318-2320 handSlot1 首选；FirstAidCourse.cs:304 教学用 limb[8]"
+    },
+    {
+      "index": 9,
+      "key": "ThighF",
+      "label": "右大腿",
+      "shortLabel": "右腿",
+      "isVital": false,
+      "evidence": "prefab 轴：isLegLimb=1、distanceToHeart=2；Lang other.ThighF=右大腿 / Short=右腿；Item.cs:6333 desiredWearLimb=\"ThighF\"（wearSlot thigh）"
+    },
+    {
+      "index": 10,
+      "key": "CrusF",
+      "label": "右小腿",
+      "shortLabel": "右腿",
+      "isVital": false,
+      "evidence": "prefab 轴：isLegLimb=1、distanceToHeart=3；Lang other.CrusF=右小腿 / Short=右腿；Item.cs:7060 desiredWearLimb=\"CrusF\"（wearSlot knees）"
+    },
+    {
+      "index": 11,
+      "key": "FootF",
+      "label": "右脚",
+      "shortLabel": "右脚爪",
+      "isVital": false,
+      "evidence": "prefab 轴：isLegLimb=1、distanceToHeart=4；Lang other.FootF=右脚 / Short=右脚爪；Body.cs:4328 hasLegs 判据、GroundGlass.cs:20 随机 11/14 踩玻璃、Item.cs:6865 desiredWearLimb=\"FootF\""
+    },
+    {
+      "index": 12,
+      "key": "ThighB",
+      "label": "左大腿",
+      "shortLabel": "左腿",
+      "isVital": false,
+      "evidence": "prefab 轴：isLegLimb=1、distanceToHeart=2；Lang other.ThighB=左大腿 / Short=左腿；Item.cs:6373 desiredWearLimb=\"ThighB\"（wearSlot thighback）"
+    },
+    {
+      "index": 13,
+      "key": "CrusB",
+      "label": "左小腿",
+      "shortLabel": "左腿",
+      "isVital": false,
+      "evidence": "prefab 轴：isLegLimb=1、distanceToHeart=3；Lang other.CrusB=左小腿 / Short=左腿"
+    },
+    {
+      "index": 14,
+      "key": "FootB",
+      "label": "左脚",
+      "shortLabel": "左脚爪",
+      "isVital": false,
+      "evidence": "prefab 轴：isLegLimb=1、distanceToHeart=4；Lang other.FootB=左脚 / Short=左脚爪；Body.cs:4328 hasLegs 判据、BananaPlantSlip.cs:14 以 limbs[11]/limbs[14] 判滑倒"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+MIT License
+
+Copyright (c) 2026 Daoguan-King
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---------------------------------------------------------------------------
+第三方内容声明 / Third-party notice
+
+本仓库的代码以上 MIT 许可发布。但修改器运行与构建所涉及的下列内容版权归
+《Casualties: Unknown》作者 Orsoniks 及各自权利人所有，不在本许可范围内：
+
+  - 游戏内的物品名称、描述、配方、运行设置、肢体/身体字段名等文本与数值数据
+    （work/data/*.json，由游戏语言包与程序集整理而来）
+  - 游戏贴图、UI 素材（构建时会内嵌进 dist 单文件，本仓库不提供解包原图）
+  - 反编译得到的 C# 源码与方法名引用（本仓库不提供反编译源码）
+
+dist/ 目录下的成品是"用于修改本人存档"的工具产物；请自行确保使用与分发行为
+符合当地法律与游戏最终用户许可协议。若权利人提出异议，仓库维护者会立即移除
+相关内容。

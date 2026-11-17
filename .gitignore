@@ -1,0 +1,29 @@
+# ---------- 本地私有：游戏解包内容（版权归游戏方，不入库） ----------
+work/decompile/
+work/art/out/
+work/save.json
+work/test/
+work/shots/
+work/CONTRACT.md
+work/uiprobe/
+work/backup-src-*/
+
+# ---------- 校验器的构建产物与用例存档（含真实存档数据） ----------
+work/verify/bin/
+work/verify/obj/
+work/verify/out/
+work/verify/cases/*.sv
+work/verify/cases/*.json
+
+# ---------- 自检产物：内嵌了一份真实存档，不入库 ----------
+dist/selftest.html
+
+# ---------- 草图与一次性的临时脚本 ----------
+UI草图/
+work/_*.py
+work/art/_*.py
+*.pyc
+__pycache__/
+node_modules/
+.DS_Store
+Thumbs.db
