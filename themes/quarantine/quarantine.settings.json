@@ -1,0 +1,80 @@
+{
+  "name": "quarantine",
+  "like": "neutral",
+  "mode": "dark-only",
+  "settings": [
+    {
+      "thing": "accent",
+      "value": "#e0a53a",
+      "source": "dial"
+    },
+    {
+      "thing": "neutral",
+      "value": "#4a5058",
+      "source": "dial"
+    },
+    {
+      "thing": "info",
+      "value": "#4fb3b8",
+      "source": "dial"
+    },
+    {
+      "thing": "corners",
+      "value": "square",
+      "source": "dial"
+    },
+    {
+      "thing": "spacing",
+      "value": "tight",
+      "source": "dial"
+    },
+    {
+      "thing": "--color-background-inverted",
+      "value": "#23262a",
+      "source": "token",
+      "on": "toast",
+      "mode": "dark"
+    },
+    {
+      "thing": "background-color",
+      "value": "var(--color-neutral)",
+      "source": "property",
+      "on": "button",
+      "when": "variant:primary",
+      "state": "disabled"
+    },
+    {
+      "thing": "color",
+      "value": "var(--color-text-primary)",
+      "source": "property",
+      "on": "button",
+      "when": "variant:primary",
+      "state": "disabled"
+    },
+    {
+      "thing": "background-color",
+      "value": "var(--color-accent-muted)",
+      "source": "property",
+      "on": "side-nav-item",
+      "state": "selected"
+    },
+    {
+      "thing": "border-radius",
+      "value": "var(--radius-element)",
+      "source": "property",
+      "on": "avatar"
+    },
+    {
+      "thing": "--focus-outline-offset",
+      "value": "-2px",
+      "source": "token"
+    },
+    {
+      "thing": "text-size",
+      "value": "larger",
+      "source": "dial"
+    }
+  ],
+  "lifted": [],
+  "palette": "ceb4b3f122ffc1611633f4e77ec57b9a767b10c9efa47107fb45fb98717090ce"
+}

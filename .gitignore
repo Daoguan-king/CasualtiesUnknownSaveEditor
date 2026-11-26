@@ -26,8 +26,22 @@ work/art/_*.py
 __pycache__/
 node_modules/
 .DS_Store
+# ---------- React + Astryx 工具链 ----------
+.npmcache/
+.pw-browsers/
+work/build/
+work/probe/
+work/before/
+work/verify-*.mjs
+themes/*/preview*.png
+themes/*/sheet*.png
+
 Thumbs.db
 # ---------- 解包产物的中间件 ----------
 work/art/gallery.html
 work/art/ringfit.json
 work/art/uicursor32.png
+debug.log
+work/probe*/
+work/verify-*
+work/*.mjs
